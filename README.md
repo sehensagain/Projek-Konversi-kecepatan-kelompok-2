@@ -26,7 +26,7 @@ Program ini dibuat untuk melakukan konversi kecepatan. Pengguna dapat dengan mud
   </div>
 
   <footer>
-    <p>🚗 Dibuat oleh kelompok 2 <a href="https://github.com/USERNAME" target="_blank">USERNAME</a></p>
+    <p>🚗 Dibuat oleh kelompok 2 <a href="https://github.com/sehensagain" target="_blank">sehensagain</a></p>
   </footer>
 
   <script src="script.js"></script>
