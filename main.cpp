@@ -13,6 +13,19 @@ double convertKmToMph(double kmh) {
 double convertMphToKmh(double mph) {
     return mph * MPH_TO_KMH;
 }
+int choice;
+double speed;
 
+cout << "===============================" << endl;
+cout << "   KONVERSI KECEPATAN C++ APP  " << endl;
+cout << "===============================" << endl;
+cout << "1. Konversi dari Km/h ke Mph" << endl;
+cout << "2. Konversi dari Mph ke Km/h" << endl;
+cout << "===============================" << endl;
+cout << "Masukkan pilihan (1 atau 2): ";
+cin >> choice;
+
+cout << fixed << setprecision(2);
 return 0;
+
 }
