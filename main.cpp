@@ -32,6 +32,18 @@ if (choice == 1) {
     cin >> speed;
     cout << speed << " Km/h = " << convertKmToMph(speed) << " Mph" << endl;
 }
-  return 0;
+else if (choice == 2){
+    cout << "Masukan kecepatan (Mph): ";
+    cin >> speed;
+    cout << speed << " Mph =" << convertMphToKmh(speed) << "Km/h" << endl;
 }
+else {
+    cout << "Pilihan tidak valid! Silakan pilih 1 atau 2" << endl;
+}
+cout << "==============================" << endl;
+cout << "Terima kasih telah menggunakan aplikasi ini!" << endl;
+  return 0;
+    
+}
+
 
