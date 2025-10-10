@@ -26,6 +26,12 @@ cout << "Masukkan pilihan (1 atau 2): ";
 cin >> choice;
 
 cout << fixed << setprecision(2);
-return 0;
-
+    
+if (choice == 1) {
+    cout << "Masukkan kecepatan (Km/h): ";
+    cin >> speed;
+    cout << speed << " Km/h = " << convertKmToMph(speed) << " Mph" << endl;
 }
+  return 0;
+}
+
